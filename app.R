@@ -152,7 +152,7 @@ ui <- fluidPage(
                                                     box(width=6, background="red",
                                                             h2("disadvantages"),
                                                             p("1. low score is not sufficient to diagnose MCI or dementia"),
-                                                            p("2. it takes longer to adminiter (>10 minutes)")
+                                                            p("2. it takes longer to administer (>10 minutes)")
                                                         )
                                                     )
                                                   ),
@@ -192,8 +192,8 @@ ui <- fluidPage(
                                                         ),
                                                     box(width=6, background="red",
                                                           h2("disadvantages"),
-                                                          p("1. needs extensive training to adminiter"),
-                                                          p("2. it takes longer to adminiter (apx. 1 hour)")
+                                                          p("1. needs extensive training to administer"),
+                                                          p("2. it takes longer to administer (apx. 1 hour)")
                                                         )
                                                     )
                                                   )
@@ -249,7 +249,7 @@ ui <- fluidPage(
                                 tabPanel("Working Memory", style = "font-size:25px",
                                   fluidRow(width=6,
                                     box(width=5,
-                                        h3("WAIS-IV subtests for assessing working memory"),
+                                        h2("WAIS-IV subtests for assessing working memory"),
                                         img(src="digit_span.PNG", width="100%", height="100%"),
                                         helpText("A. Across three phases of the Digit Span test, the examiner reads digits aloud and the examinee repeats them back in forward order, 
                                                  in backward order, or rearranges the numbers to be in sequential order."),
@@ -316,7 +316,7 @@ ui <- fluidPage(
                                            tabPanel("Verbal Comprehension", style = "font-size:25px",
                                                     fluidRow(
                                                       box(width=5,
-                                                          h2("WAIS-IV subtests for assessing working memory"),
+                                                          h2("WAIS-IV subtests for assessing verbal comprehension"),
                                                           img(src="similarities.PNG", width="75%", height="75%"),
                                                           helpText("A. In the Similarities test, the examinee identifies a commonality between two items named by the examiner."),
                                                           br(),
@@ -385,15 +385,15 @@ ui <- fluidPage(
                                   box(width=9,
                                       h2("About me"),
                                       p("I graduated with my BA from Stony Brook University in 2017 with a degree in Psychology. 
-                                        In 2023, I received my MS and am currectly a dessertator in Psychology department with a focus on Cognitive Neuroscience
+                                        In 2023, I received my MS and am currently a dissertator in Psychology department with a focus on Cognitive Neuroscience
                                         at the University of Wisconsin-Milwaukee (UWM)
-                                        under the supervision of Dr. Cailin Bowman.", style = "font-size:25px"),
+                                        under the supervision of Dr. Caitlin Bowman.", style = "font-size:25px"),
                                       p("I am interested in both healthy cognitive aging and pathological aging including Alzheimer's disease related dementias.
                                         I have experience analyzing behavioral imaging data.
                                         I am proficient in a wide variety of statistical methods, coding, and scripting and
-                                        am soon going to be in a jop market pursuing a career as a postdoctoral researcher.", style = "font-size:25px"),
+                                        am soon going to be in a job market pursuing a career as a postdoctoral researcher.", style = "font-size:25px"),
                                       p("Outside of my professional life, I enjoy spending time with friends playing board games and going to trivia at bars,
-                                        visit my family in Japan, or going to the dog park with my husky Ace :).", style = "font-size:25px")
+                                        visiting my family in Japan, or going to the dog park with my husky Ace :).", style = "font-size:25px")
                                   ),
                                   box(width=3,
                                       img(src="pic_with_Ace.png", width="100%", height="100%")
@@ -402,7 +402,7 @@ ui <- fluidPage(
                                 fluidRow(
                                   box(width=12,
                                       h3("(Some) References"),
-                                      p("For a complete list of references, download the written versions on Healthy Cognitive Aging", downloadLink("pathway_PDF", "here."), style = "font-size:20px"),
+                                      p("For a complete list of references, download a written version of Healthy Cognitive Aging", downloadLink("pathway_PDF", "here."), style = "font-size:20px"),
                                       p("1. Blazer, D. G., Yaffe, K., & Karlawish, J.. (2015). Cognitive Aging. JAMA, 313(21), 2121.
                                         https://doi.org/10.1001/jama.2015.4380"),
                                       p("2. Insel, P. S., Mattsson, N., Mackin, R. S., Schöll, M., Nosheny, R. L., Tosun, D., Donohue, M. C.,
